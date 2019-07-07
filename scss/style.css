@@ -9,6 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #252F31;
+  margin: 5px;
   color: #ddd; }
   .button:hover {
     background-color: #222; }
@@ -82,24 +83,24 @@ nav {
     position: absolute;
     z-index: -10; }
   .hero .text {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Kalam';
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     color: white;
-    width: 60%;
+    width: 80%;
     margin: 0 auto; }
     .hero .text .top {
-      text-align: left;
+      text-align: center;
       font-size: 40px; }
     .hero .text .middle {
       margin: 50px auto;
       text-align: center;
       font-size: 60px; }
     .hero .text .bottom {
-      text-align: right;
+      text-align: center;
       font-size: 40px; }
     .hero .text .scroll-button {
       margin: 5vh auto 0 auto;
@@ -130,7 +131,7 @@ nav {
 
 .portfolio {
   padding: 15vh 0;
-  font-family: 'Patua One', cursive;
+  font-family: 'Bungee';
   background-color: white;
   overflow-x: hidden;
   display: flex;
